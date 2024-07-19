@@ -1,0 +1,1 @@
+function intersection(a,b){}
