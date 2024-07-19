@@ -27,7 +27,3 @@ function intersection(arr1,arr2){
     return [...a].filter(a=>b.has(a));
 }
 console.log(intersection([1,2,3,4],[2,2,3,4]))
-function inter(arr1,arr2){
-    let res  = arr1.filter(it=>arr2.includes(it));
-    return [...new Set(res)]
-}
